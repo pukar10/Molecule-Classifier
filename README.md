@@ -3,8 +3,8 @@ Machine Learning / Data Mining - Classifier that implements Decision Trees and N
 active or not. Binary classification.  A molecule can be represented by several thousands of binary features which represent their topological shapes and other characteristics important for binding.
 
 ## Dataset
-train - 800 records, max 100000 features, labels <br />
-test - 350 records with features, no labels <br />
+- train - 800 records, max 100000 features, labels <br />
+- test - 350 records with features, no labels <br />
 
 ## My Approach 
 Spare matrix to store data due to significant amount of zeros. TruncatedSVD (TSVD) to reduce features, SMOTE to help with skewed dataset.
