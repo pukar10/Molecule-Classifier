@@ -14,4 +14,6 @@ Use Decision tree and Naïve Bayes - Gaussian to predict test labels.
 numpy <br />
 scipy <br />
 sklearn <br />
+  *sklearn.decomposition import TruncatedSVD
+  sklearn.tree import DecisionTreeClassifier
 
