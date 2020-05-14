@@ -10,12 +10,12 @@ test - 350 records with features, no labels <br /n>
 Spare matrix to store data due to significant amount of zeros. TruncatedSVD (TSVD) to reduce features, SMOTE to help with skewed dataset.
 Use Decision tree and Naïve Bayes - Gaussian to predict test labels.
 
-## Libraries
-numpy
-scipy 
-sklearn 
-  *sklearn.naive_bayes import GaussianNB
-  *sklearn.neural_network import MLPClassifier
-  *sklearn.decomposition import TruncatedSVD
-  *sklearn.tree import DecisionTreeClassifier
-imblearn.over_sampling import SMOTE
+## Libraries <br /n>
+numpy <br /n>
+scipy <br /n>
+sklearn <br /n>
+  *sklearn.naive_bayes import GaussianNB <br /n>
+  *sklearn.neural_network import MLPClassifier <br /n>
+  *sklearn.decomposition import TruncatedSVD <br /n>
+  *sklearn.tree import DecisionTreeClassifier <br /n>
+imblearn.over_sampling import SMOTE <br /n>
